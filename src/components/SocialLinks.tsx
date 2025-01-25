@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import styled, { css } from "styled-components";
@@ -27,28 +27,24 @@ const LinkedInIcon = styled(FaLinkedinIn)`
 const GithubIcon = styled(TbBrandGithubFilled)`
   ${socialIcons}
 `;
-const XIcon = styled(FaXTwitter)`
-  ${socialIcons}
-`;
+
 const EmailIcon = styled(IoMdMail)`
   ${socialIcons}
 `;
 
 const SocialLinks = () => {
   return (
-    // Insert your social links
     <SocialContainer>
-      <LinkWrapper target="_blank" href="https://linkedin.com">
+      <LinkWrapper
+        target="_blank"
+        href="https://www.linkedin.com/in/justin-alexander-27542522b"
+      >
         <LinkedInIcon />
       </LinkWrapper>
-      <LinkWrapper target="_blank" href="https://github.com">
+      <LinkWrapper target="_blank" href="https://github.com/im7ven">
         <GithubIcon />
       </LinkWrapper>
-      <LinkWrapper target="_blank" href="https://x.com">
-        <XIcon />
-      </LinkWrapper>
-      {/* Insert your email address  */}
-      <LinkWrapper target="_blank" href="mailto:johnsmith@email.com">
+      <LinkWrapper target="_blank" href="mailto:alexanderrr416@gmail.com">
         <EmailIcon />
       </LinkWrapper>
     </SocialContainer>
