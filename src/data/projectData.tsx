@@ -84,7 +84,7 @@ export const projectData: Project[] = [
   {
     title: "ShippudenHub",
     description:
-      "This project involved creating a Naruto Shippuden character API using MongoDB and developing a Next.js application to showcase it. The app features character details and provides a seamless browsing experience for fans.",
+      "This project involved creating a Naruto Shippuden character API using MongoDB and Next.js. The app showcases character details and provides a seamless browsing experience for fans.",
     techUsed: ["Next Js", "TypeScript", "Mongo Db", "Tailwind Css"],
     image: shippudenHub,
     githubPath: "https://github.com/im7ven/shippudenHub",
