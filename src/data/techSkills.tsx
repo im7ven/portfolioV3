@@ -7,6 +7,8 @@ export const techSkills = [
   "Git",
   "Framer Motion",
   "MongoDb",
+  "Node.js",
+  "Express.js",
   "JavaScript",
   "React Query",
   "Prisma",
