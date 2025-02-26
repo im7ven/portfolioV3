@@ -15,6 +15,7 @@ const ProjectWrapper = styled.div`
   display: grid;
   gap: 4rem 2rem;
   justify-items: center;
+  margin-top: 3rem;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
